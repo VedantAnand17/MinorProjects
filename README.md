@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Welcome to my Tinkering Box!</title>
-</head>
 <body>
 
 <h2>Welcome to my Tinkering Box!</h2>
