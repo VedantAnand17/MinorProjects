@@ -2,6 +2,8 @@
 <html>
 <body>
 
+<h1>Minor Projects</h1>
+
 <h2>Welcome to my Tinkering Box!</h2>
 
 <p>This repository is a curated collection of my personal projects, primarily built with the magic trio of web development: HTML, CSS, and a dash of JavaScript. Think of it as my creative outlet, a space where I experiment, learn, and occasionally stumble upon something unexpectedly awesome.</p>
