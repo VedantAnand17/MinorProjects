@@ -30,6 +30,8 @@ p {
 
 img {
   width: 80%;
+  /* Add animation styles */
+  transition: transform 0.5s;
 }
 
 footer {
@@ -38,4 +40,29 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+/* Add styles for the roll button */
+#rollButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #4ECCA3;
+  color: #232931;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#rollButton:hover {
+  background-color: #3BAA8C;
+}
+
+/* Keyframes for dice rolling animation */
+@keyframes roll {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(90deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
 }
